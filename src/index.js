@@ -255,7 +255,7 @@ require(["Lightstreamer/LightstreamerClient","Lightstreamer/StatusWidget","light
 //HERE starts the interesting stuff  
   
 // initiate the Lightstreamer connection
-  var lsClient = new LightstreamerClient("http://test.lightstreamer.it","DEMO");
+  var lsClient = new LightstreamerClient("http://push.lightstreamer.com","DEMO");
   lsClient.connectionSharing.enableSharing("DemoCommonConnection", "ATTACH", "CREATE");
   lsClient.addListener(new StatusWidget("left", "0px", true));
   lsClient.connect();
