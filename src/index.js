@@ -137,7 +137,7 @@ require(["Lightstreamer/LightstreamerClient","Lightstreamer/StatusWidget","light
                                                                                       span.style.setProperty("width", "12px", "important");
                                                                                       span.style.setProperty("height", "12px", "important");                                                                                    
                                                                                       span.style.setProperty("display", "inline-block", "important");
-                                                                                      span.style.setProperty("background-color", data, "important");
+                                                                                      span.style.setProperty("background-color", data||"", "important");
                                                                                       return span;
                                                                                     },
                                                                                     sortable: true
