@@ -16,11 +16,11 @@ Run The Demo
 Before you can run the demo some dependencies need to be solved:
 
 -  Get the lightstreamer_namespace.js file from the [Lightstreamer 5 Colosseo distribution](http://www.lightstreamer.com/download) 
-   and put it in the js folder of the demo. Alternatively you can build a lightstreamer_namespace.js file from the 
+   and put it in the src folder of the demo. Alternatively you can build a lightstreamer_namespace.js file from the 
    [online generator](http://www.lightstreamer.com/distros/Lightstreamer_Allegro-Presto-Vivace_5_0_Colosseo_20120803/Lightstreamer/DOCS-SDKs/sdk_client_javascript/tools/generator.html).
    In that case be sure to include the LightstreamerClient, Subscription and StatusWidget modules and to use the "AMD with namespaced names" version.
--  Download [the Dojo Toolkit](http://download.dojotoolkit.org) and copy the dojox folder from the package to the js folder of the demo. The demo requires the Dojo Toolkit v.1.8 or higher.
--  Using the [CommonJS Package Manager](https://github.com/kriszyp/cpm) install dgrid, dijit and lightstreamer-store in the js folder;
+-  Download [the Dojo Toolkit](http://download.dojotoolkit.org) and copy the dojox folder from the package to the src folder of the demo. The demo requires the Dojo Toolkit v.1.8 or higher.
+-  Using the [CommonJS Package Manager](https://github.com/kriszyp/cpm) install dgrid, dijit and lightstreamer-store in the src folder;
    dependencies for these packages will be automatically resolved by the cpm process:
         cpm install dgrid
         cpm install dijit
@@ -36,18 +36,18 @@ minimize startup times:
 
 Head for the [Dojo Web Builder](http://build.dojotoolkit.org/) and select the following packages:
 
--  dijit.layout.BorderContainer	
--  dijit.Dialog	
--  dijit.registry	
--  dojox.charting.Chart	
--  dojox.charting.StoreSeries	
--  dojox.charting.axis2d.Default	
--  dojox.charting.plot2d.Default	
--  dojox.charting.themes.Claro	
--  dijit.form.ToggleButton	
--  dojo.store.Memory	
--  dojo.store.Observable	
--  dojo.parser	
+-  dijit.layout.BorderContainer
+-  dijit.Dialog
+-  dijit.registry
+-  dojox.charting.Chart
+-  dojox.charting.StoreSeries
+-  dojox.charting.axis2d.Default
+-  dojox.charting.plot2d.Default
+-  dojox.charting.themes.Claro
+-  dijit.form.ToggleButton
+-  dojo.store.Memory
+-  dojo.store.Observable
+-  dojo.parser
 -  dojo.domReady
 -  dijit.layout.ContentPane
 -  dijit.form.Button
