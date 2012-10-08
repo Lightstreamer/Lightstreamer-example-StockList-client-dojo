@@ -56,3 +56,21 @@ Head for the [Dojo Web Builder](http://build.dojotoolkit.org/) and select the fo
 -  dojox.gfx.svg
 
 Then click the "build" button and wait. Once the builder is done a zip file will be dowloaded; copy the files/folders from the archive in the src/dojo foloder and reload the demo. 
+
+Point to your Lightstreamer
+---------------------------
+
+The demo currently connects to an online Lightstreamer demo server to get the stock data. It is possible to change this setting making the demo point to a different server. Obviously in this 
+case the DEMO adapter needs to be installed on the tagert server (currently such adapter is installed by default).
+To change the server edit the index.js file and substitute the following line
+
+    var lsClient = new LightstreamerClient("http://push.lightstreamer.com","DEMO");
+
+with
+
+    var lsClient = new LightstreamerClient(myServer,"DEMO");
+
+where myServer contains the address of the server (comprehending the port if different from the default one).
+As an example, to connect to a local server listening on port 8080 use
+
+    var lsClient = new LightstreamerClient("http://localhost:8080","DEMO");
