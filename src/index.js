@@ -131,7 +131,7 @@ require(["Lightstreamer/LightstreamerClient","Lightstreamer/StatusWidget","light
     itemsList: ["item1", "item2", "item3", "item4", "item5", "item6", "item7", "item8", "item9", "item11"],
     fieldsList: ["last_price", "time", "timestamp", "pct_change", "bid_quantity", "bid", "ask", "ask_quantity", "min", "max", "ref_price", "open_price", "stock_name", "item_status"],
     columns: [
-                editor({ label: "Show", field: "show", sortable: true }, "checkbox"),
+                editor({ label: "Show", field: "show", sortable: true, autosave: true }, "checkbox"),
                 { id: "legend", label: "Legend", field: "legend", renderCell: function (object, data, td, options){
                                                                                       var span = document.createElement("span");
                                                                                       span.style.setProperty("width", "12px", "important");
@@ -291,16 +291,6 @@ require(["Lightstreamer/LightstreamerClient","Lightstreamer/StatusWidget","light
   grid.styleColumn("legend", "width: 7em; text-align: center; border-width: 0px;");
   grid.styleColumn("name", "width: auto; text-align: left; padding-left: 2px; border-width: 0px;");
   grid.styleColumn(0, "width: 7em; text-align: left; border-width: 0px;");
-
-  grid.on("dgrid-datachange", function(evt){  
-    // when the show checkbox is flagged/unflagged we need to update the store by saving the dirt data of the grid
-    var cell = evt.cell;
-    if ( cell.column && cell.column.id == 0 ) {
-      setTimeout(function() {
-        grid.save();
-      },0);
-    }
-  });
     
   // bind the grid with the store
   grid.set("store",stockStore);
