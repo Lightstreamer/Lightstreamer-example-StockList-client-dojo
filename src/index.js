@@ -1,15 +1,16 @@
-
-require(["Lightstreamer/LightstreamerClient","Lightstreamer/StatusWidget","lightstreamer-store/LightstreamerStore",
-          "dojox/charting/Chart","dojox/charting/axis2d/Default","dojox/charting/plot2d/Default","dojox/charting/themes/Claro","dojox/charting/StoreSeries",
-          "dijit/layout/BorderContainer","dijit/Dialog","dijit/form/ToggleButton","dijit/registry",
-          "dgrid","dgrid/editor",
-          "dojo/_base/lang","dojo/store/Memory","dojo/store/Observable","dojo/parser",
-          "dojo/domReady!"], 
-          function(LightstreamerClient,StatusWidget,LightstreamerStore,
-              Chart,axis2dDefault,plot2dDefault,Claro,StoreSeries,
-              BorderContainer,Dialog,ToggleButton,registry,
-              Grid,editor,
-              lang,Memory,Observable,parser) {
+require([
+  "Lightstreamer/LightstreamerClient", "Lightstreamer/StatusWidget", 
+  "lightstreamer-store/LightstreamerStore", "dojox/charting/Chart", 
+  "dojox/charting/axis2d/Default", "dojox/charting/plot2d/Default",
+  "dojox/charting/themes/Claro", "dojox/charting/StoreSeries",
+  "dijit/layout/BorderContainer","dijit/Dialog", "dijit/form/ToggleButton",
+  "dijit/registry", "dgrid", "dgrid/editor", "dojo/_base/lang", 
+  "dojo/store/Memory", "dojo/store/Observable", "dojo/parser", 
+  "dojo/domReady!"
+], function(LightstreamerClient, StatusWidget, LightstreamerStore,
+  Chart, axis2dDefault, plot2dDefault, Claro, StoreSeries,
+  BorderContainer, Dialog, ToggleButton, registry, Grid, editor,
+  lang, Memory, Observable, parser){
 
   //  Formatters for various parts of the UI
   formatters = {
