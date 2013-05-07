@@ -1,5 +1,5 @@
-Lightstreamer :: Dojo Toolkit :: Stock-List Demo
-================================================
+Lightstreamer Stock-List Demo Client for Dojo
+=============================================
 
 A simple stocklist demo application showing integration between the Dojo Toolkit and the Lightstreamer JS Client.
 The demo shows how to use the Lightstreamer JS Client library, the [lightstreamer-store](https://github.com/Weswit/dojo-lightstreamer-store),
@@ -64,13 +64,32 @@ The demo currently connects to an online Lightstreamer demo server to get the st
 case the DEMO adapter needs to be installed on the tagert server (currently such adapter is installed by default).
 To change the server edit the index.js file and substitute the following line
 
+```js
     var lsClient = new LightstreamerClient("http://push.lightstreamer.com","DEMO");
+```
 
 with
 
+```js
     var lsClient = new LightstreamerClient(myServer,"DEMO");
+```
 
 where myServer contains the address of the server (comprehending the port if different from the default one).
 As an example, to connect to a local server listening on port 8080 use
 
+```js
     var lsClient = new LightstreamerClient("http://localhost:8080","DEMO");
+```    
+
+
+See Also
+--------
+
+* [Lightstreamer Portfolio Demo Client for Dojo](https://github.com/Weswit/Lightstreamer-example-Portfolio-client-dojo)
+* TODO: [Lightstreamer Portfolio Demo Adapter]
+
+Lightstreamer Compatibility Notes
+---------------------------------
+
+* Compatible with Lightstreamer JavaScript Client library version 6.0 or newer.
+* Compatible with Dojo Toolkit v.1.8 or newer.
