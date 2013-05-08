@@ -81,12 +81,12 @@ As an example, to connect to a local server listening on port 8080 use
     var lsClient = new LightstreamerClient("http://localhost:8080","DEMO");
 ```    
 
-
 See Also
 --------
 
+* [LightstreamerStore for Dojo](https://github.com/Weswit/dojo-lightstreamer-store)
 * [Lightstreamer Portfolio Demo Client for Dojo](https://github.com/Weswit/Lightstreamer-example-Portfolio-client-dojo)
-* TODO: [Lightstreamer Portfolio Demo Adapter]
+* TODO: add link to GitHub project of [Lightstreamer Portfolio Demo Adapter]
 
 Lightstreamer Compatibility Notes
 ---------------------------------
