@@ -86,7 +86,7 @@ See Also
 
 * [LightstreamerStore for Dojo](https://github.com/Weswit/dojo-lightstreamer-store)
 * [Lightstreamer Portfolio Demo Client for Dojo](https://github.com/Weswit/Lightstreamer-example-Portfolio-client-dojo)
-* TODO: add link to GitHub project of [Lightstreamer Portfolio Demo Adapter]
+* [Lightstreamer Stock-List Demo Adapter](https://github.com/Weswit/Lightstreamer-example-StockList-adapter-java)
 
 Lightstreamer Compatibility Notes
 ---------------------------------
