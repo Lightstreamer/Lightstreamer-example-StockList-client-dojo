@@ -1,4 +1,4 @@
-Lightstreamer Stock-List Demo Client for Dojo
+Lightstreamer StockList Demo Client for Dojo
 =============================================
 
 A simple stocklist demo application showing integration between the Dojo Toolkit and the Lightstreamer JS Client.
@@ -86,7 +86,7 @@ See Also
 
 * [LightstreamerStore for Dojo](https://github.com/Weswit/dojo-lightstreamer-store)
 * [Lightstreamer Portfolio Demo Client for Dojo](https://github.com/Weswit/Lightstreamer-example-Portfolio-client-dojo)
-* [Lightstreamer Stock-List Demo Adapter](https://github.com/Weswit/Lightstreamer-example-StockList-adapter-java)
+* [Lightstreamer StockList Demo Adapter](https://github.com/Weswit/Lightstreamer-example-StockList-adapter-java)
 
 Lightstreamer Compatibility Notes
 ---------------------------------
