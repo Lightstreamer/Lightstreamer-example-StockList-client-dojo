@@ -7,7 +7,7 @@ A simple stocklist demo application showing integration between the Dojo Toolkit
 <table>
   <tr>
     <td style="text-align: left">
-      &nbsp;<a href="http://demos.lightstreamer.com/DojoDemo/" target="_blank"><img src="http://www.lightstreamer.com/img/demo/screen_dojo.png"></a>&nbsp;
+      &nbsp;<a href="http://demos.lightstreamer.com/DojoDemo/" target="_blank"><img src="screen_dojo.png"></a>&nbsp;
       
     </td>
     <td>
