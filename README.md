@@ -1,5 +1,7 @@
 # Lightstreamer - Stock-List Demo - Dojo Toolkit Client #
 
+<!-- START DESCRIPTION lightstreamer-example-stocklist-client-dojo -->
+
 A simple stocklist demo application showing integration between the Dojo Toolkit and the Lightstreamer JavaScript Client library.
 
 <table>
@@ -20,6 +22,7 @@ The demo shows how to use the Lightstreamer JavaScript Client library, the [ligh
 Real-Time simulated Stock-List data is received from the Lightstreamer Server deployed @ [http://push.lightstreamer.com](http://push.lightstreamer.com)<br>
 To deploy the demo on your own environment follow the below instructions.
 
+<!-- END DESCRIPTION lightstreamer-example-stocklist-client-dojo -->
 # Deploy #
 
 Before you can run the demo some dependencies need to be solved:
@@ -91,9 +94,11 @@ As an example, to connect to a local server listening on port 8080 use:
 
 ## Lightstreamer Adapters needed by this demo client ##
 
+<!-- START RELATED_ENTRIES -->
 * [Lightstreamer - Stock-List Demo - Java Adapter](https://github.com/Weswit/Lightstreamer-example-Stocklist-adapter-java)
 * [Lightstreamer - Reusable Metadata Adapters- Java Adapter](https://github.com/Weswit/Lightstreamer-example-ReusableMetadata-adapter-java)
 
+<!-- END RELATED_ENTRIES -->
 ## Similar demo clients that may interest you ##
 
 * [Lightstreamer - Stock-List Demos - HTML Clients](https://github.com/Weswit/Lightstreamer-example-Stocklist-client-javascript)
