@@ -4,9 +4,9 @@
 
 A simple stocklist demo application showing integration between the Dojo Toolkit and the Lightstreamer JavaScript Client library.
 
-
 [![screenshot](screenshot.png)](http://demos.lightstreamer.com/DojoDemo/)
-;An online demonstration is hosted on our servers at [http://demos.lightstreamer.com/DojoDemo](http://demos.lightstreamer.com/DojoDemo)
+
+An online demonstration is hosted on our servers at [http://demos.lightstreamer.com/DojoDemo](http://demos.lightstreamer.com/DojoDemo)
 
 The demo shows how to use the Lightstreamer JavaScript Client library, the [lightstreamer-store](https://github.com/Weswit/dojo-lightstreamer-store), the [dgrid](https://github.com/SitePen/dgrid) component and [DojoX Charts](https://github.com/dojo/dojox) together.<br>
 
