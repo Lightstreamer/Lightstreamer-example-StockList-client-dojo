@@ -1,4 +1,4 @@
-# Lightstreamer - Stock-List Demo - Dojo Toolkit Client #
+# Lightstreamer - Stock-List Demo - HTML (Dojo Toolkit) Client #
 
 <!-- START DESCRIPTION lightstreamer-example-stocklist-client-dojo -->
 
