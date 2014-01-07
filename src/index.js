@@ -273,7 +273,7 @@ require([
   
 // initiate the Lightstreamer connection
   var lsClient = new LightstreamerClient("http://push.lightstreamer.com","DEMO");
-  lsClient.connectionSharing.enableSharing("DemoCommonConnection", "ATTACH", "CREATE");
+  lsClient.connectionSharing.enableSharing("DojoDemosCommonConnection", "ATTACH", "CREATE");
   lsClient.addListener(new StatusWidget("left", "0px", true));
   lsClient.connect();
   
