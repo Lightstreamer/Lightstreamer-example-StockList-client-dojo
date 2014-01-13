@@ -90,15 +90,12 @@ As an example, to connect to a local server listening on port 8080 use:
 * [Lightstreamer - Reusable Metadata Adapters- Java Adapter](https://github.com/Weswit/Lightstreamer-example-ReusableMetadata-adapter-java)
 
 <!-- END RELATED_ENTRIES -->
-## Similar demo clients that may interest you ##
+## Related Projects ##
 
 * [Lightstreamer - Stock-List Demos - HTML Clients](https://github.com/Weswit/Lightstreamer-example-Stocklist-client-javascript)
 * [Lightstreamer - Basic Stock-List Demo - jQuery (jqGrid) Client](https://github.com/Weswit/Lightstreamer-example-StockList-client-jquery)
 * [Lightstreamer - Basic Stock-List Demo - Java SE (Swing) Client](https://github.com/Weswit/Lightstreamer-example-StockList-client-java)
 * [Lightstreamer - Basic Stock-List Demo - .NET Client](https://github.com/Weswit/Lightstreamer-example-StockList-client-dotnet)
-
-## Related Projects ##
-
 * [LightstreamerStore for Dojo](https://github.com/Weswit/dojo-lightstreamer-store)
 
 # Lightstreamer Compatibility Notes #
