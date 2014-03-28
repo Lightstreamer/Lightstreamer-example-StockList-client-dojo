@@ -62,10 +62,10 @@ Once the demo is working in your environment it is time to deploy it on a web se
 
 The demo currently connects to an online Lightstreamer demo server to get the stock data. It is possible to change this setting making the demo point to a different server. Obviously in this 
 case the DEMO adapter needs to be installed on the tagert server (currently such adapter is installed by default).
-To change the server edit the index.js file and substitute the following line:
+To change the server edit the js/lsClient.js file and substitute the following line:
 
 ```js
-    var lsClient = new LightstreamerClient("http://push.lightstreamer.com","DEMO");
+    var lsClient = new LightstreamerClient(protocolToUse+"//localhost:"+portToUse,"DEMO");
 ```
 
 with:
