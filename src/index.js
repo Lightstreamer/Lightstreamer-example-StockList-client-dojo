@@ -15,15 +15,14 @@ limitations under the License.
 */
 
 require([
-  "Lightstreamer/LightstreamerClient", "Lightstreamer/StatusWidget", 
-  "lightstreamer-store/LightstreamerStore", "dojox/charting/Chart", 
-  "dojox/charting/axis2d/Default", "dojox/charting/plot2d/Default",
-  "dojox/charting/themes/Claro", "dojox/charting/StoreSeries",
-  "dijit/layout/BorderContainer","dijit/Dialog", "dijit/form/ToggleButton",
-  "dijit/registry", "dgrid", "dgrid/editor", "dojo/_base/lang", 
-  "dojo/store/Memory", "dojo/store/Observable", "dojo/parser", 
-  "dojo/domReady!"
-], function(LightstreamerClient, StatusWidget, LightstreamerStore,
+  "js/lsClient", "lightstreamer-store/LightstreamerStore", 
+  "dojox/charting/Chart", "dojox/charting/axis2d/Default", 
+  "dojox/charting/plot2d/Default", "dojox/charting/themes/Claro", 
+  "dojox/charting/StoreSeries", "dijit/layout/BorderContainer",
+  "dijit/Dialog", "dijit/form/ToggleButton", "dijit/registry", 
+  "dgrid", "dgrid/editor", "dojo/_base/lang", "dojo/store/Memory", 
+  "dojo/store/Observable", "dojo/parser", "dojo/domReady!"
+], function(lsClient, LightstreamerStore,
   Chart, axis2dDefault, plot2dDefault, Claro, StoreSeries,
   BorderContainer, Dialog, ToggleButton, registry, Grid, editor,
   lang, Memory, Observable, parser){
@@ -270,12 +269,6 @@ require([
   parser.parse();
  
 //HERE starts the interesting stuff  
-  
-// initiate the Lightstreamer connection
-  var lsClient = new LightstreamerClient("http://push.lightstreamer.com","DEMO");
-  lsClient.connectionSharing.enableSharing("DojoDemosCommonConnection", "ATTACH", "CREATE");
-  lsClient.addListener(new StatusWidget("left", "0px", true));
-  lsClient.connect();
   
 // initiate the LightstreamerStore
   var stockStore = new LightstreamerStore(lsClient, {
