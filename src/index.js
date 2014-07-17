@@ -308,7 +308,16 @@ require([
   
   //start sorting by stock_name
   grid.set("sort","stock_name"); 
-  
+
+  grid.on("dgrid-datachange", function(evt){  
+    // when the show checkbox is flagged/unflagged we need to update the store by saving the dirt data of the grid
+    var cell = evt.cell;
+    if ( cell.column && cell.column.id == 0 ) {
+      setTimeout(function() {
+        grid.save();
+      },0);
+    }
+  });
   
 // automatically set the show flag to true on the first three items showing up
   var INITIAL_CHARTS = 3;
@@ -360,6 +369,8 @@ require([
       if (chartSeries[updatedObject["id"]]) {
         chart.removeSeries(updatedObject["id"]);
         delete(chartSeries[updatedObject["id"]]);
+        updatedObject["legend"] = "";
+        stockStore.put(updatedObject);
       }
       
     } else {
