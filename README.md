@@ -85,7 +85,7 @@ As an example, to connect to a local server listening on port 8080 use:
 
 ## See Also
 
-### Lightstreamer Adapters Needed by This Demo Client
+### Lightstreamer Adapters Needed by This Client
 
 <!-- START RELATED_ENTRIES -->
 * [Lightstreamer - Stock-List Demo - Java Adapter](https://github.com/Weswit/Lightstreamer-example-Stocklist-adapter-java)
