@@ -11,7 +11,7 @@ A simple stocklist demo application showing integration between the <b>Dojo Tool
 
 ## Details
 
-The demo shows how to use the Lightstreamer JavaScript Client library, the [lightstreamer-store](https://github.com/Weswit/dojo-lightstreamer-store), the [dgrid](https://github.com/SitePen/dgrid) component and [DojoX Charts](https://github.com/dojo/dojox) together.<br>
+The demo shows how to use the Lightstreamer JavaScript Client library, the [lightstreamer-store](https://github.com/Weswit/dojo-lightstreamer-store), the [dgrid](https://github.com/SitePen/dgrid) component, and [DojoX Charts](https://github.com/dojo/dojox) together.<br>
 
 Real-Time simulated Stock-List data is received from the Lightstreamer Server deployed @ [http://push.lightstreamer.com](http://push.lightstreamer.com)<br>
 
@@ -23,9 +23,9 @@ If you want to install a version of this demo pointing to your local Lightstream
 
 * Note that, as prerequisite, the [Lightstreamer - Stock- List Demo - Java Adapter](https://github.com/Weswit/Lightstreamer-example-Stocklist-adapter-java) has to be deployed on your local Lightstreamer Server instance. Please check out that project and follow the installation instructions provided with it.
 * Launch Lightstreamer Server.
-* Crate the folders `/pages/demos/[demo_name]` into your Lightstreamer server installation then copy here the content of `src` folder of this project.
-* Get the `lightstreamer_namespace.js` file from the [latest Lightstreamer distribution](http://www.lightstreamer.com/download) and put it in the `src` folder of the demo. Alternatively you can build a `lightstreamer_namespace.js` file from the [online generator](http://www.lightstreamer.com/distros/Lightstreamer_Allegro-Presto-Vivace_5_1_1_Colosseo_20140310/Lightstreamer/DOCS-SDKs/sdk_client_javascript/tools/generator.html).
-In that case be sure to include the LightstreamerClient, Subscription and StatusWidget modules and to use the "AMD with namespaced names" version.
+* Create the folders `/pages/demos/[demo_name]` into your Lightstreamer server installation then copy here the content of `src` folder of this project.
+* Get the `lightstreamer_namespace.js` file from the [latest Lightstreamer distribution](http://www.lightstreamer.com/download) and put it in the `src` folder of the demo. Alternatively, you can build a `lightstreamer_namespace.js` file from the [online generator](http://www.lightstreamer.com/distros/Lightstreamer_Allegro-Presto-Vivace_5_1_1_Colosseo_20140310/Lightstreamer/DOCS-SDKs/sdk_client_javascript/tools/generator.html).
+In that case, be sure to include the LightstreamerClient, Subscription, and StatusWidget modules and to use the "AMD with namespaced names" version.
 *  Download [the Dojo Toolkit](http://download.dojotoolkit.org) and copy the `dojox` folder from the package to the `src` folder of the demo. The demo requires the Dojo Toolkit v.1.8 or higher.
 *  Using the [CommonJS Package Manager](https://github.com/kriszyp/cpm) install dgrid, dijit and lightstreamer-store in the `src` folder; dependencies for these packages will be automatically resolved by the cpm process:
   - cpm install dgrid 0.3.8
@@ -58,13 +58,13 @@ Head for the [Dojo Web Builder](http://build.dojotoolkit.org/) and select the fo
 -  dojox.collections.ArrayList
 -  dojox.gfx.svg
 
-Then click the "build" button and wait. Once the builder is done a zip file will be dowloaded; copy the files/folders from the archive in the `src/dojo` foloder and reload the demo. <br>
+Then click the "build" button and wait. Once the builder is done, a zip file will be downloaded; copy the files/folders from the archive in the `src/dojo` foloder and reload the demo. <br>
 
-Once the demo is working in your environment it is time to deploy it on a web server. 
+Once the demo is working in your environment, it is time to deploy it on a web server. 
 
-The demo currently connects to a local Lightstreamer server to get the stock data. It is possible to change this setting making the demo point to a different server. Obviously in this 
-case the DEMO adapter needs to be installed on the tagert server (currently such adapter is installed by default).
-To change the server edit the `js/lsClient.js` file and substitute the following line:
+The demo currently connects to a local Lightstreamer server to get the stock data. It is possible to change this setting, making the demo point to a different server. Obviously, in this 
+Case, the DEMO adapter needs to be installed on the tagert server (currently, such adapter is installed by default).
+To change the server, edit the `js/lsClient.js` file and substitute the following line:
 
 ```js
     var lsClient = new LightstreamerClient(protocolToUse+"//localhost:"+portToUse,"DEMO");
