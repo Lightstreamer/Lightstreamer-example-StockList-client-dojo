@@ -11,7 +11,7 @@ A simple stocklist demo application showing integration between the <b>Dojo Tool
 
 ## Details
 
-The demo shows how to use the Lightstreamer JavaScript Client library, the [lightstreamer-store](https://github.com/Weswit/dojo-lightstreamer-store), the [dgrid](https://github.com/SitePen/dgrid) component, and [DojoX Charts](https://github.com/dojo/dojox) together.<br>
+The demo shows how to use the Lightstreamer JavaScript Client library, the [lightstreamer-store](https://github.com/Lightstreamer/dojo-lightstreamer-store), the [dgrid](https://github.com/SitePen/dgrid) component, and [DojoX Charts](https://github.com/dojo/dojox) together.<br>
 
 Real-Time simulated Stock-List data is received from the Lightstreamer Server deployed @ [http://push.lightstreamer.com](http://push.lightstreamer.com)<br>
 
@@ -21,7 +21,7 @@ Real-Time simulated Stock-List data is received from the Lightstreamer Server de
 
 If you want to install a version of this demo pointing to your local Lightstreamer Server, follow these steps:
 
-* Note that, as prerequisite, the [Lightstreamer - Stock- List Demo - Java Adapter](https://github.com/Weswit/Lightstreamer-example-Stocklist-adapter-java) has to be deployed on your local Lightstreamer Server instance. Please check out that project and follow the installation instructions provided with it.
+* Note that, as prerequisite, the [Lightstreamer - Stock- List Demo - Java Adapter](https://github.com/Lightstreamer/Lightstreamer-example-Stocklist-adapter-java) has to be deployed on your local Lightstreamer Server instance. Please check out that project and follow the installation instructions provided with it.
 * Launch Lightstreamer Server.
 * Create the folders `/pages/demos/[demo_name]` into your Lightstreamer server installation then copy here the content of `src` folder of this project.
 * Get the `lightstreamer_namespace.js` file from the [latest Lightstreamer distribution](http://www.lightstreamer.com/download) and put it in the `src` folder of the demo. Alternatively, you can build a `lightstreamer_namespace.js` file from the [online generator](http://www.lightstreamer.com/docs/client_javascript_tools/generator.html).
@@ -88,17 +88,17 @@ As an example, to connect to a local server listening on port 8080 use:
 ### Lightstreamer Adapters Needed by This Client
 
 <!-- START RELATED_ENTRIES -->
-* [Lightstreamer - Stock-List Demo - Java Adapter](https://github.com/Weswit/Lightstreamer-example-Stocklist-adapter-java)
-* [Lightstreamer - Reusable Metadata Adapters- Java Adapter](https://github.com/Weswit/Lightstreamer-example-ReusableMetadata-adapter-java)
+* [Lightstreamer - Stock-List Demo - Java Adapter](https://github.com/Lightstreamer/Lightstreamer-example-Stocklist-adapter-java)
+* [Lightstreamer - Reusable Metadata Adapters- Java Adapter](https://github.com/Lightstreamer/Lightstreamer-example-ReusableMetadata-adapter-java)
 
 <!-- END RELATED_ENTRIES -->
 ### Related Projects
 
-* [Lightstreamer - Stock-List Demos - HTML Clients](https://github.com/Weswit/Lightstreamer-example-Stocklist-client-javascript)
-* [Lightstreamer - Basic Stock-List Demo - jQuery (jqGrid) Client](https://github.com/Weswit/Lightstreamer-example-StockList-client-jquery)
-* [Lightstreamer - Basic Stock-List Demo - Java SE (Swing) Client](https://github.com/Weswit/Lightstreamer-example-StockList-client-java)
-* [Lightstreamer - Basic Stock-List Demo - .NET Client](https://github.com/Weswit/Lightstreamer-example-StockList-client-dotnet)
-* [LightstreamerStore for Dojo](https://github.com/Weswit/dojo-lightstreamer-store)
+* [Lightstreamer - Stock-List Demos - HTML Clients](https://github.com/Lightstreamer/Lightstreamer-example-Stocklist-client-javascript)
+* [Lightstreamer - Basic Stock-List Demo - jQuery (jqGrid) Client](https://github.com/Lightstreamer/Lightstreamer-example-StockList-client-jquery)
+* [Lightstreamer - Basic Stock-List Demo - Java SE (Swing) Client](https://github.com/Lightstreamer/Lightstreamer-example-StockList-client-java)
+* [Lightstreamer - Basic Stock-List Demo - .NET Client](https://github.com/Lightstreamer/Lightstreamer-example-StockList-client-dotnet)
+* [LightstreamerStore for Dojo](https://github.com/Lightstreamer/dojo-lightstreamer-store)
 
 ## Lightstreamer Compatibility Notes #
 
