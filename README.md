@@ -25,7 +25,7 @@ If you want to install a version of this demo pointing to your local Lightstream
 * Launch Lightstreamer Server.
 * Create the folders `/pages/demos/[demo_name]` into your Lightstreamer server installation then copy here the content of `src` folder of this project.
 * Get the `lightstreamer_namespace.js` file from the [latest Lightstreamer distribution](http://www.lightstreamer.com/download) and put it in the `src` folder of the demo. Alternatively, you can build a `lightstreamer_namespace.js` file from the [online generator](http://www.lightstreamer.com/docs/client_javascript_tools/generator.html).
-In that case, be sure to include the LightstreamerClient, Subscription, and StatusWidget modules and to use the "AMD with namespaced names" version.
+In that case, be sure to include the LightstreamerClient, Subscription, ConnectionSharing, and StatusWidget modules and to use the "AMD with namespaced names" version.
 *  Download [the Dojo Toolkit](http://download.dojotoolkit.org) and copy the `dojox` folder from the package to the `src` folder of the demo. The demo requires the Dojo Toolkit v.1.8 or higher.
 *  Using the [CommonJS Package Manager](https://github.com/kriszyp/cpm) install dgrid, dijit and lightstreamer-store in the `src` folder; dependencies for these packages will be automatically resolved by the cpm process:
   - cpm install dgrid 0.3.8
