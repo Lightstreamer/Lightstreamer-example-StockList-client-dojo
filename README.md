@@ -7,7 +7,7 @@ A simple stocklist demo application showing integration between the <b>Dojo Tool
 ## Live Demo
 
 [![screenshot](screen_dojo_large.png)](http://demos.lightstreamer.com/DojoDemo/)<br>
-###[![](http://demos.lightstreamer.com/site/img/play.png) View live demo](http://demos.lightstreamer.com/DojoDemo/)<br>
+### [![](http://demos.lightstreamer.com/site/img/play.png) View live demo](http://demos.lightstreamer.com/DojoDemo/)<br>
 
 ## Details
 
