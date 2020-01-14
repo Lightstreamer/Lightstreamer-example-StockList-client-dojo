@@ -6,14 +6,15 @@ A simple stocklist demo application showing integration between the <b>Dojo Tool
 
 ## Live Demo
 
-[![screenshot](screen_dojo_large.png)](http://demos.lightstreamer.com/DojoDemo/)<br>
-### [![](http://demos.lightstreamer.com/site/img/play.png) View live demo](http://demos.lightstreamer.com/DojoDemo/)<br>
+[![screenshot](screen_dojo_large.png)](http://demos.lightstreamer.com/DojoDemo/)
+
+### [![](http://demos.lightstreamer.com/site/img/play.png) View live demo](http://demos.lightstreamer.com/DojoDemo/)
+
+*Note. Real-Time simulated Stock-List data is received from the Lightstreamer Server deployed at [http://push.lightstreamer.com](http://push.lightstreamer.com)
 
 ## Details
 
-The demo shows how to use the Lightstreamer JavaScript Client library, the [lightstreamer-store](https://github.com/Lightstreamer/dojo-lightstreamer-store), the [dgrid](https://github.com/SitePen/dgrid) component, and [DojoX Charts](https://github.com/dojo/dojox) together.<br>
-
-Real-Time simulated Stock-List data is received from the Lightstreamer Server deployed @ [http://push.lightstreamer.com](http://push.lightstreamer.com)<br>
+The demo shows how to use the Lightstreamer JavaScript Client library, the [lightstreamer-store](https://github.com/Lightstreamer/dojo-lightstreamer-store), the [dgrid](https://github.com/SitePen/dgrid) component, and [DojoX Charts](https://github.com/dojo/dojox) together.
 
 <!-- END DESCRIPTION lightstreamer-example-stocklist-client-dojo -->
 
@@ -21,8 +22,10 @@ Real-Time simulated Stock-List data is received from the Lightstreamer Server de
 
 If you want to install a version of this demo pointing to your local Lightstreamer Server, follow these steps:
 
-* Note that, as prerequisite, the [Lightstreamer - Stock- List Demo - Java Adapter](https://github.com/Lightstreamer/Lightstreamer-example-Stocklist-adapter-java) has to be deployed on your local Lightstreamer Server instance. Please check out that project and follow the installation instructions provided with it.
+* Note that, as prerequisite, the [Lightstreamer - Stock- List Demo - Java Adapter](https://github.com/Lightstreamer/Lightstreamer-example-Stocklist-adapter-java) has to be deployed on your local Lightstreamer Server instance.
+  Please check out that project and follow the installation instructions provided with it.
 * Launch Lightstreamer Server.
+* Download this project.
 * Create the folders `/pages/demos/[demo_name]` into your Lightstreamer server installation then copy here the content of `src` folder of this project.
 * Build a file to be named `lightstreamer_namespace.js` with the provided generator and put it in the `src` folder of the demo;
   see the build instructions on the [GitHub page](https://github.com/Lightstreamer/Lightstreamer-lib-client-javascript#building).
@@ -59,7 +62,7 @@ Head for the [Dojo Web Builder](http://build.dojotoolkit.org/) and select the fo
 -  dojox.collections.ArrayList
 -  dojox.gfx.svg
 
-Then click the "build" button and wait. Once the builder is done, a zip file will be downloaded; copy the files/folders from the archive in the `src/dojo` foloder and reload the demo. <br>
+Then click the "build" button and wait. Once the builder is done, a zip file will be downloaded; copy the files/folders from the archive in the `src/dojo` foloder and reload the demo.
 
 Once the demo is working in your environment, it is time to deploy it on a web server. 
 
@@ -93,6 +96,7 @@ As an example, to connect to a local server listening on port 8080 use:
 * [Lightstreamer - Reusable Metadata Adapters- Java Adapter](https://github.com/Lightstreamer/Lightstreamer-example-ReusableMetadata-adapter-java)
 
 <!-- END RELATED_ENTRIES -->
+
 ### Related Projects
 
 * [Lightstreamer - Stock-List Demos - HTML Clients](https://github.com/Lightstreamer/Lightstreamer-example-Stocklist-client-javascript)
@@ -101,7 +105,7 @@ As an example, to connect to a local server listening on port 8080 use:
 * [Lightstreamer - Basic Stock-List Demo - .NET Client](https://github.com/Lightstreamer/Lightstreamer-example-StockList-client-dotnet)
 * [LightstreamerStore for Dojo](https://github.com/Lightstreamer/dojo-lightstreamer-store)
 
-## Lightstreamer Compatibility Notes #
+## Lightstreamer Compatibility Notes 
 
 * Compatible with Lightstreamer JavaScript Client library version 6.0 or newer.
 * Compatible with Dojo Toolkit v.1.8 or newer.
