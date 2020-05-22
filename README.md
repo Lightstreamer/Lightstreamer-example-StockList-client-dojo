@@ -28,6 +28,7 @@ If you want to install a version of this demo pointing to your local Lightstream
 * Download this project.
 * Create the folders `/pages/demos/[demo_name]` into your Lightstreamer server installation then copy here the content of `src` folder of this project.
 * Get the `lightstreamer_namespace.js` file from [Lightstreamer distribution](http://www.lightstreamer.com/download) (see compatibility notes below) and put it in the `src` folder of the demo.
+  The version required by this demo can be found in Lightstreamer version 5.1.2 to 7.0.
   Alternatively, you can build a `lightstreamer_namespace.js` file from the [online generator](http://www.lightstreamer.com/docs/client_javascript_tools/generator.html).
   In that case, be sure to include the LightstreamerClient, Subscription, ConnectionSharing, and StatusWidget modules and to use the "AMD with namespaced names" version.
 * Download [the Dojo Toolkit](http://download.dojotoolkit.org) and copy the `dojox` folder from the package to the `src` folder of the demo. The demo requires the Dojo Toolkit v.1.8 or higher.
